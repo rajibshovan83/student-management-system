@@ -1,0 +1,26 @@
+{
+  "students": {
+    "S001": {
+      "name": "Sami",
+      "age": 22,
+      "address": "Dhaka, 1200",
+      "student_id": "S001",
+      "grades": {
+        "Math": "A"
+      },
+      "courses": [
+        "MAT101"
+      ]
+    }
+  },
+  "courses": {
+    "MAT101": {
+      "course_name": "Math",
+      "course_code": "MAT101",
+      "instructor": "Dr. XYZ",
+      "students": [
+        "S001"
+      ]
+    }
+  }
+}
